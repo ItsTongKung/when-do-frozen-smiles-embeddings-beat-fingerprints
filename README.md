@@ -1,5 +1,7 @@
 # Do Frozen SMILES Embeddings Beat Fingerprints?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20142891.svg)](https://doi.org/10.5281/zenodo.20142891)
+
 Public code and benchmark repository for:
 
 **Do Frozen SMILES Foundation Embeddings Beat Fingerprints? A Split- and Low-Data Benchmark on ADMET and CNS Bioactivity Tasks**
@@ -24,6 +26,20 @@ benchmark_config.yaml   Reproducible benchmark config
 
 Raw datasets, paper drafts, `.env` files, API keys, model checkpoints, and large `.npy` embedding caches are intentionally not included.
 
+## Repository And Archive
+
+Code and result artifacts are available in this GitHub repository:
+
+```text
+https://github.com/ItsTongKung/when-do-frozen-smiles-embeddings-beat-fingerprints
+```
+
+A frozen reproducibility release corresponding to the arXiv version is archived on Zenodo:
+
+```text
+https://doi.org/10.5281/zenodo.20142891
+```
+
 ## Reproduce
 
 ```powershell
@@ -38,32 +54,6 @@ python scripts\run_benchmark.py --config benchmark_config.yaml
 
 The source tables must first be placed in `data/`; see `data/README.md`.
 
-## Suggested GitHub Settings
-
-Repository name:
-
-```text
-when-do-frozen-smiles-embeddings-beat-fingerprints
-```
-
-Description:
-
-```text
-Split- and low-data benchmark of frozen ChemBERTa/MoLFormer embeddings against Morgan/RDKit baselines for ADMET and CNS bioactivity tasks.
-```
-
-Topics:
-
-```text
-cheminformatics, molecular-property-prediction, admet, chemberta, molformer, rdkit, xgboost, machine-learning
-```
-
-Recommended first tag:
-
-```text
-v0.1.0
-```
-
 ## Citation
 
-Use `CITATION.cff`. After the arXiv ID is available, update the citation metadata and README.
+Use `CITATION.cff` or cite the Zenodo archive DOI: `10.5281/zenodo.20142891`. After the arXiv ID is available, update the citation metadata and README.

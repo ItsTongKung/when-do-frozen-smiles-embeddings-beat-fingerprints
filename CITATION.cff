@@ -1,12 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite this repository. Add the arXiv citation after the preprint is posted."
+message: "If you use this benchmark, please cite the Zenodo reproducibility archive and this repository. Add the arXiv citation after the preprint is posted."
 title: "Do Frozen SMILES Foundation Embeddings Beat Fingerprints? A Split- and Low-Data Benchmark on ADMET and CNS Bioactivity Tasks"
-version: "v0.1.0"
+version: "v1.0.0-arxiv"
 date-released: "2026-05-13"
 authors:
   - family-names: "Sriwicha"
     given-names: "Phongsakon"
 repository-code: "https://github.com/ItsTongKung/when-do-frozen-smiles-embeddings-beat-fingerprints"
+doi: "10.5281/zenodo.20142891"
+url: "https://doi.org/10.5281/zenodo.20142891"
 license: "MIT"
 keywords:
   - "cheminformatics"
