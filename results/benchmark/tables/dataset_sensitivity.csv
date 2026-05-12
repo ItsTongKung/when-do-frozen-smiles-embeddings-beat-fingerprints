@@ -1,0 +1,17 @@
+dataset,mean_delta,analysis,n_dataset_regime_rows
+B3DB_Classification,-0.025656148658404754,dataset_mean,
+BBB_Martins,-0.02347729988052569,dataset_mean,
+Bioavailability_Ma,-0.005459183673469395,dataset_mean,
+ChEMBL_CNS_CHEMBL217_D2_dopamine_receptor,-0.050852438645542085,dataset_mean,
+ChEMBL_CNS_CHEMBL228_Sodiumdependent_serotonin_transp,-0.03276315789473684,dataset_mean,
+ChEMBL_CNS_CHEMBL233_Mutype_opioid_receptor,-0.027740057130301053,dataset_mean,
+HIA_Hou,-0.009724999999999998,dataset_mean,
+PAMPA_NCATS,-0.03936862783297618,dataset_mean,
+B3DB_Classification,-0.0265532642913511,leave_one_dataset_out,37.0
+BBB_Martins,-0.02690659112019635,leave_one_dataset_out,37.0
+Bioavailability_Ma,-0.029828447802421703,leave_one_dataset_out,37.0
+ChEMBL_CNS_CHEMBL217_D2_dopamine_receptor,-0.023214354671123916,leave_one_dataset_out,38.0
+ChEMBL_CNS_CHEMBL228_Sodiumdependent_serotonin_transp,-0.025778334337217226,leave_one_dataset_out,39.0
+ChEMBL_CNS_CHEMBL233_Mutype_opioid_receptor,-0.026255457502076685,leave_one_dataset_out,38.0
+HIA_Hou,-0.028625859756063663,leave_one_dataset_out,38.0
+PAMPA_NCATS,-0.024329619019798982,leave_one_dataset_out,37.0

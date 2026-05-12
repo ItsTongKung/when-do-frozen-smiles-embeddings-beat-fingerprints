@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite this repository. Add the arXiv citation after the preprint is posted."
+title: "Do Frozen SMILES Foundation Embeddings Beat Fingerprints? A Split- and Low-Data Benchmark on ADMET and CNS Bioactivity Tasks"
+version: "v0.1.0"
+date-released: "2026-05-13"
+authors:
+  - family-names: "Sriwicha"
+    given-names: "Phongsakon"
+repository-code: "https://github.com/<YOUR_GITHUB_USERNAME>/when-do-frozen-smiles-embeddings-beat-fingerprints"
+license: "MIT"
+keywords:
+  - "cheminformatics"
+  - "molecular property prediction"
+  - "ADMET"
+  - "ChemBERTa"
+  - "MoLFormer"
+  - "fingerprints"
+  - "RDKit"
+  - "low-data learning"
