@@ -66,4 +66,4 @@ v0.1.0
 
 ## Citation
 
-Use `CITATION.cff`. After the GitHub URL and arXiv ID are available, update the citation metadata and README.
+Use `CITATION.cff`. After the arXiv ID is available, update the citation metadata and README.
