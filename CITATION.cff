@@ -6,7 +6,7 @@ date-released: "2026-05-13"
 authors:
   - family-names: "Sriwicha"
     given-names: "Phongsakon"
-repository-code: "https://github.com/<YOUR_GITHUB_USERNAME>/when-do-frozen-smiles-embeddings-beat-fingerprints"
+repository-code: "https://github.com/ItsTongKung/when-do-frozen-smiles-embeddings-beat-fingerprints"
 license: "MIT"
 keywords:
   - "cheminformatics"
