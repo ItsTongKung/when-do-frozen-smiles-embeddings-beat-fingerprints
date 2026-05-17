@@ -8,6 +8,8 @@ Public code and benchmark repository for:
 
 This is a lightweight benchmark of cached frozen ChemBERTa and MoLFormer embeddings against Morgan fingerprints and RDKit descriptor baselines under random, scaffold, and low-data splits.
 
+The current manuscript PDF is available as [`paper.pdf`](paper.pdf). The PDF is included for convenient reading; reproducibility files remain organized under `scripts/`, `results/`, and `figures/`.
+
 ## Main Result
 
 In the released benchmark, frozen-vs-classical comparisons are available for 43 dataset-regime rows across 8 curated binary tasks. The best Morgan/RDKit baseline wins 36/43 rows, while the best frozen embedding variant wins 7/43 rows. The clustered AUROC difference for frozen minus classical is -0.025 with a 95% CI of [-0.032, -0.018].
@@ -17,6 +19,7 @@ The message is narrow: frozen SMILES embeddings should be treated as candidate r
 ## What Is Included
 
 ```text
+paper.pdf               Current manuscript PDF
 figures/                Main result figures for quick viewing
 results/benchmark/      Summary tables and figures
 scripts/                Benchmark and embedding scripts
@@ -24,7 +27,7 @@ data/README.md          Dataset placement notes
 benchmark_config.yaml   Reproducible benchmark config
 ```
 
-Raw datasets, paper drafts, `.env` files, API keys, model checkpoints, and large `.npy` embedding caches are intentionally not included.
+Raw datasets, LaTeX source drafts, `.env` files, API keys, model checkpoints, and large `.npy` embedding caches are intentionally not included.
 
 ## Repository And Archive
 
@@ -39,6 +42,8 @@ A frozen reproducibility release corresponding to the arXiv version is archived 
 ```text
 https://doi.org/10.5281/zenodo.20142891
 ```
+
+The GitHub repository is intended for code inspection and lightweight reruns. The Zenodo archive is the fixed release to cite for this manuscript version.
 
 ## Reproduce
 
