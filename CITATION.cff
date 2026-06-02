@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite the Zenodo reproducibility archive and this repository. Add the arXiv citation after the preprint is posted."
+message: "If you use this benchmark, please cite the ChemRxiv preprint. Cite the Zenodo DOI when referring specifically to the reproducibility artifact."
 title: "Do Frozen SMILES Foundation Embeddings Beat Fingerprints? A Split- and Low-Data Benchmark on ADMET and CNS Bioactivity Tasks"
-version: "v1.0.0-arxiv"
-date-released: "2026-05-13"
+version: "v1.0.0-chemrxiv"
+date-released: "2026-06-02"
 authors:
   - family-names: "Sriwicha"
     given-names: "Phongsakon"
@@ -10,6 +10,17 @@ repository-code: "https://github.com/ItsTongKung/when-do-frozen-smiles-embedding
 doi: "10.5281/zenodo.20142891"
 url: "https://doi.org/10.5281/zenodo.20142891"
 license: "MIT"
+preferred-citation:
+  type: article
+  title: "Do Frozen SMILES Foundation Embeddings Beat Fingerprints? A Split- and Low-Data Benchmark on ADMET and CNS Bioactivity Tasks"
+  authors:
+    - family-names: "Sriwicha"
+      given-names: "Phongsakon"
+  doi: "10.26434/chemrxiv.15004188/v1"
+  url: "https://doi.org/10.26434/chemrxiv.15004188/v1"
+  date-released: "2026-06-02"
+  publisher:
+    name: "ChemRxiv"
 keywords:
   - "cheminformatics"
   - "molecular property prediction"
